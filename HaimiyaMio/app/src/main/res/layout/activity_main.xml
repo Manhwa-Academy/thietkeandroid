@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F4F6FA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="BÀI TẬP NGÀY 2 THÁNG 3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:text="Bài 1 - Thông tin cá nhân"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:text="Bài 2 - Đăng nhập"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:text="Bài 3 - Danh sách môn"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:text="Bài 4 - Profile Tab"
+        style="@style/MenuButton"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:text="Bài 5 - Quản lý lớp"
+        style="@style/MenuButton"/>
+
+</LinearLayout>
