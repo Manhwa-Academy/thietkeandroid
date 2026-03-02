@@ -1,4 +1,4 @@
-# HaimiyaMio
+# Hoàng Kỉefu Phong
 
 📅 Ngày thực hiện: 02/03/2026  
 
@@ -18,5 +18,6 @@ Thư mục **HaimiyaMio** gồm 5 bài thực hành thiết kế giao diện v�
 - Android Studio  
 - Fragment  
 - Material Components  
+
 
 > Lưu ý: Project tập trung vào thiết kế giao diện (UI), chưa xử lý dữ liệu hoặc database.
