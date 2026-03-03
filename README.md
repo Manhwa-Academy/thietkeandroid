@@ -6,7 +6,7 @@
 
 ## 📂 Danh sách Project
 
-Repository gồm 2 project thực hành Android Studio:
+Repository gồm 2 project thực hành Android Studio :
 
 ---
 
