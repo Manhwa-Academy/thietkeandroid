@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <!-- BẮT BUỘC: ScrollView chỉ có 1 view con -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- TIÊU ĐỀ -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ỨNG DỤNG TỔNG HỢP 10 BÀI"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="20dp"/>
+
+    <!-- GRID -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="16dp">
+        <!-- BÀI 1 -->
+        <android.widget.Button
+            android:id="@+id/btnBai1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai1"/>
+        <!-- BÀI 2 -->
+        <android.widget.Button
+            android:id="@+id/btnBai2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai2"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 3 -->
+        <android.widget.Button
+            android:id="@+id/btnBai3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai3"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai3"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 4 -->
+        <android.widget.Button
+            android:id="@+id/btnBai4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai4"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 5 -->
+        <android.widget.Button
+            android:id="@+id/btnBai5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai5"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai5"
+            tools:ignore="ContrastCheck"/>
+        <!-- BÀI 6 -->
+        <android.widget.Button
+            android:id="@+id/btnBai6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai6"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai6"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 7 -->
+        <android.widget.Button
+            android:id="@+id/btnBai7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai7"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai7"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 8 -->
+        <android.widget.Button
+            android:id="@+id/btnBai8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai8"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai8"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 9 -->
+        <android.widget.Button
+            android:id="@+id/btnBai9"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai9"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai9"
+            tools:ignore="ContrastCheck"/>
+
+        <!-- BÀI 10 -->
+        <android.widget.Button
+            android:id="@+id/btnBai10"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="@string/bai10"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/bg_bai10"
+            tools:ignore="ContrastCheck"/>
+
+    </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BÀI KIỂM TRA TRẮC NGHIỆM"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- CARD CÂU HỎI -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:elevation="6dp">
+
+            <!-- CÂU 1 -->
+            <TextView
+                android:text="1. 2 + 2 = ?"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton android:id="@+id/q1a" android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q1b" android:text="4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q1c" android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q1d" android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- CÂU 2 -->
+            <TextView
+                android:text="2. Thủ đô Việt Nam?"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton android:id="@+id/q2a" android:text="HCM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q2b" android:text="Hà Nội"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q2c" android:text="Đà Nẵng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q2d" android:text="Huế"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- CÂU 3 -->
+            <TextView
+                android:text="3. 5 x 2 = ?"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rg3"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton android:id="@+id/q3a" android:text="7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q3b" android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q3c" android:text="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q3d" android:text="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- CÂU 4 -->
+            <TextView
+                android:text="4. Java là?"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rg4"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton android:id="@+id/q4a" android:text="Ngôn ngữ lập trình"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q4b" android:text="Món ăn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q4c" android:text="Trò chơi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q4d" android:text="Phần mềm vẽ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- CÂU 5 -->
+            <TextView
+                android:text="5. Android thuộc công ty nào?"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rg5"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton android:id="@+id/q5a" android:text="Google"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q5b" android:text="Apple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q5c" android:text="Microsoft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton android:id="@+id/q5d" android:text="Meta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- BUTTONS -->
+            <Button
+                android:id="@+id/btnSubmit"
+                android:text="Nộp bài"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_primary"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <Button
+                android:id="@+id/btnBack"
+                android:text="Quay lại"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_secondary"
+                android:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/bg_card"
+            android:elevation="6dp">
+
+            <!-- TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ĐĂNG KÝ MÔN HỌC"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- HỌ TÊN -->
+            <EditText
+                android:id="@+id/edtName"
+                android:hint="Họ tên sinh viên"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- MSSV -->
+            <EditText
+                android:id="@+id/edtMSSV"
+                android:hint="MSSV"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- CHỌN MÔN -->
+            <TextView
+                android:text="Chọn môn học"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- CHECKBOXES -->
+            <CheckBox
+                android:id="@+id/cb1"
+                android:text="Lập trình Java"
+                android:textColor="#111827"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:text="Cơ sở dữ liệu"
+                android:textColor="#111827"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:text="Android"
+                android:textColor="#111827"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:text="Mạng máy tính"
+                android:textColor="#111827"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cb5"
+                android:text="Trí tuệ nhân tạo"
+                android:textColor="#111827"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- BUTTON TÍNH -->
+            <Button
+                android:id="@+id/btnCalc"
+                android:text="Tính học phí"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_primary"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- RESET -->
+            <Button
+                android:id="@+id/btnReset"
+                android:text="Reset form"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_secondary"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- RESULT -->
+            <TextView
+                android:id="@+id/tvResult"
+                android:text="Học phí: 0 VNĐ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#DC2626"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- BACK -->
+            <Button
+                android:id="@+id/btnBack"
+                android:text="Quay lại"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_secondary"
+                android:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

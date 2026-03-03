@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/bg_card"
+            android:elevation="6dp">
+
+            <!-- TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ĐẶT PHÒNG KHÁCH SẠN"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- HỌ TÊN -->
+            <EditText
+                android:id="@+id/edtName"
+                android:hint="Họ tên"
+                android:inputType="textPersonName"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- CMND -->
+            <EditText
+                android:id="@+id/edtCMND"
+                android:hint="CMND/CCCD"
+                android:inputType="number"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- LOẠI PHÒNG -->
+            <TextView
+                android:text="Chọn loại phòng"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/rgRoom"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbStandard"
+                    android:text="Phòng thường (500.000đ/ngày)"
+                    android:textColor="#111827"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/rbVIP"
+                    android:text="Phòng VIP (1.000.000đ/ngày)"
+                    android:textColor="#111827"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- SỐ NGÀY -->
+            <EditText
+                android:id="@+id/edtDays"
+                android:hint="Số ngày ở"
+                android:inputType="number"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- DỊCH VỤ -->
+            <CheckBox
+                android:id="@+id/cbService"
+                android:text="Dịch vụ thêm (+200.000đ)"
+                android:textColor="#111827"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- BUTTON BOOK -->
+            <Button
+                android:id="@+id/btnBook"
+                android:text="Đặt phòng"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_primary"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- KẾT QUẢ -->
+            <TextView
+                android:id="@+id/tvResult"
+                android:text="Tổng tiền: 0 đ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#4F46E5"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- BACK -->
+            <Button
+                android:id="@+id/btnBack"
+                android:text="Quay lại"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_secondary"
+                android:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

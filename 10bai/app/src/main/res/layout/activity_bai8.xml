@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/bg_card"
+            android:elevation="6dp">
+
+            <!-- TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QUẢN LÝ CHI TIÊU"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- TÊN KHOẢN CHI -->
+            <EditText
+                android:id="@+id/edtName"
+                android:hint="Tên khoản chi"
+                android:inputType="text"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- SỐ TIỀN -->
+            <EditText
+                android:id="@+id/edtMoney"
+                android:hint="Số tiền"
+                android:inputType="numberDecimal"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- LOẠI CHI -->
+            <Spinner
+                android:id="@+id/spinnerType"
+                android:background="@drawable/bg_input"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- BUTTON ADD -->
+            <Button
+                android:id="@+id/btnAdd"
+                android:text="Thêm khoản chi"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_primary"
+                android:backgroundTint="@null"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- LIST -->
+            <ListView
+                android:id="@+id/listView"
+                android:divider="#E5E7EB"
+                android:dividerHeight="1dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"/>
+
+            <!-- TỔNG -->
+            <TextView
+                android:id="@+id/tvTotal"
+                android:text="Tổng: 0 VNĐ"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#DC2626"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- BACK -->
+            <Button
+                android:id="@+id/btnBack"
+                android:text="Quay lại"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_secondary"
+                android:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

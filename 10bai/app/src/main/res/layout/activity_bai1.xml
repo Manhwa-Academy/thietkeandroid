@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF2F7"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/bg_card"
+            android:elevation="6dp">
+
+            <!-- TITLE -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ĐĂNG KÝ TÀI KHOẢN"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#111827"
+                android:gravity="center"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- INPUT -->
+            <EditText
+                android:id="@+id/edtName"
+                android:hint="Họ tên"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <EditText
+                android:id="@+id/edtConfirm"
+                android:hint="Xác nhận mật khẩu"
+                android:inputType="textPassword"
+                android:textColor="#111827"
+                android:textColorHint="#6B7280"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- GENDER -->
+            <TextView
+                android:text="Giới tính"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:text="Nam"
+                    android:textColor="#1F2937"
+                    android:layout_marginEnd="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:text="Nữ"
+                    android:textColor="#1F2937"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <!-- HOBBY -->
+            <TextView
+                android:text="Sở thích"
+                android:textStyle="bold"
+                android:textColor="#374151"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbMusic"
+                android:text="Âm nhạc"
+                android:textColor="#1F2937"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbGame"
+                android:text="Game"
+                android:textColor="#1F2937"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbSport"
+                android:text="Thể thao"
+                android:textColor="#1F2937"
+                android:layout_marginBottom="24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- BUTTON REGISTER -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:text="ĐĂNG KÝ"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_primary"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+            <!-- BUTTON BACK -->
+            <Button
+                android:id="@+id/btnBack"
+                android:text="QUAY LẠI"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/bg_button_secondary"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

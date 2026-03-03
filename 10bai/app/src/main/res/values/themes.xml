@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Haimiyamio" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- TẮT TINT BUTTON -->
+        <item name="materialButtonStyle">@null</item>
+
+    </style>
+
+    <style name="Theme.Haimiyamio" parent="Base.Theme.Haimiyamio" />
+
+</resources>

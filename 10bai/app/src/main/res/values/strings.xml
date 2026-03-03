@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">haimiyamio</string>
+    <string name="bai1">Bài 1\nĐăng ký tài khoản</string>
+    <string name="bai2">Bài 2\nQuản lý sinh viên</string>
+    <string name="bai3">Bài 3\nĐặt vé phim</string>
+    <string name="bai4">Bài 4\nTính lương</string>
+    <string name="bai5">Bài 5\nTrắc nghiệm</string>
+    <string name="bai6">Bài 6\nQuản lý sản phẩm</string>
+    <string name="bai7">Bài 7\nĐặt phòng khách sạn</string>
+    <string name="bai8">Bài 8\nQuản lý chi tiêu</string>
+    <string name="bai9">Bài 9\nĐăng ký môn học</string>
+    <string name="bai10">Bài 10\nBán hàng mini</string>
+    <string name="register_title">Đăng ký tài khoản</string>
+    <string name="name">Họ tên</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="gender">Giới tính</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="hobby">Sở thích</string>
+    <string name="music">Âm nhạc</string>
+    <string name="game">Game</string>
+    <string name="sport">Thể thao</string>
+    <string name="register">Đăng ký</string>
+    <string name="back">Quay lại</string>
+    <string name="them">Thêm</string>
+    <string name="quay_lai">Quay lại</string>
+    <string name="them_sinh_vien">THÊM SINH VIÊN</string>
+    <string name="ho_ten">Họ tên</string>
+    <string name="nam_sinh">Năm sinh</string>
+    <string name="lop">Lớp</string>
+</resources>
