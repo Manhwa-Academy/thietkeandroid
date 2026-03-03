@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg_card"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/edtToan"
+            android:hint="Điểm Toán"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtVan"
+            android:hint="Điểm Văn"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edtAnh"
+            android:hint="Điểm Anh"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnTinh"
+            android:text="Tính điểm trung bình"
+            android:background="@drawable/bg_button"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:text="Xóa dữ liệu"
+            android:background="@drawable/bg_button"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/txtAvg"
+            android:text="Kết quả:"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:text="↩"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+</RelativeLayout>

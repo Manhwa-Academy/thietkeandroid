@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnB1"
+        android:text="Bài 1 - Máy tính"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/btnB2"
+        android:text="Bài 2 - Tính điểm"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/btnB3"
+        android:text="Bài 3 - Đổi nhiệt độ"
+        android:background="@drawable/bg_button"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</LinearLayout>
